@@ -1,0 +1,15 @@
+{
+  "name": "aigo-sdk",
+  "version": "0.2.0",
+  "description": "Node.js SDK for AIgo open API (OpenAI-compatible chat, extract, credits)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node examples/query_balance.js"
+  },
+  "keywords": ["aigo", "ai-api", "openai-compatible", "open-api"],
+  "author": "AIgo",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
